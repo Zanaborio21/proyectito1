@@ -31,7 +31,6 @@
   text-align: center;
 }
 
-/* Agregado para hacer que todas las tarjetas tengan la misma altura */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -44,7 +43,7 @@
   padding-left: 15px;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
-  height: 400px; /* ajusta esta altura según tus necesidades */
+  height: 400px;
   background-color: #ff87a3;
   border: none;
   border-radius: 5px;
