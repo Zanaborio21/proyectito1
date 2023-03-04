@@ -22,7 +22,7 @@ function Tarjeta({ imageSource, titulo, text, url }) {
           className="btn btn-outline-secondary border-0"
           rel="noreferrer"
         >
-          Go to {titulo}
+          Ir a {titulo}
         </a>
       </div>
     </div>

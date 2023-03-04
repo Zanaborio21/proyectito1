@@ -3,10 +3,16 @@ import Tarjetas from "./components/tarjetas";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='titulo'>La LitaClase</h1>
-      <Tarjetas />
-    </div>
+    <body>
+      <div className="App">
+        <div className='titulo'>Repositorio De Clases</div>
+          <Tarjetas />
+      </div>
+      <footer class="footer">
+      <p>Para, la lita</p>
+        <small>🥕 By Zana , <a href="https://github.com/Zanaborio21/proyectito1">Borio</a>.</small>
+      </footer>
+    </body>
   );
 }
 
