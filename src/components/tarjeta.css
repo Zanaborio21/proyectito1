@@ -22,10 +22,12 @@
   transform: scale(1);
   transition: all 0.2s ease-in-out;
   height: 200px;
+  position: relative;
+  z-index: 999; 
 }
 
 .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1.1);
 }
 .card-title {
   text-align: center;
