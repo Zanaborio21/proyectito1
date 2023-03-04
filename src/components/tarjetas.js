@@ -46,7 +46,9 @@ function Tarjetas() {
         {Tarjetita.map(({ titulo, image, url, id, text }) => (
           <div className="col" key={id}>
             <div className="card tarjeta">
+              <a href={url ? url:"#!"} target="_blank">
               <img src={image} className="card-img-top" alt="..." />
+              </a>
               <div className="card-body tarjeta-body">
                 <h5 className="card-title">{titulo}</h5>
                 <p className="card-text tarjeta-text">
